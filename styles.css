@@ -47,6 +47,7 @@ body {
   width: 1.7em;
   height: 1.7em;
   opacity: 0.666;
+  vertical-align: middle;
 }
 
 .audio-link.small {
@@ -62,11 +63,11 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: bold;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .location {
-  margin-top: 0.1em;
+  margin-top: 0.25em;
   font-size: 1.1em;
   font-weight: bold;
 }
