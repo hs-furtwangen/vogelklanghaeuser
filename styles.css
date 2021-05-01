@@ -48,6 +48,13 @@ body {
   opacity: 0.666;
 }
 
+.audio-link.small {
+  width: 1em;
+  height: 1em;
+  opacity: 0.666;
+  vertical-align: bottom;
+}
+
 .index {
   display: inline;
   font-size: 1.5em;
