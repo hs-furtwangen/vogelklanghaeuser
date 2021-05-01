@@ -14,8 +14,8 @@ body {
   border-color: #ccc;
   border-radius: 5px;
   overflow: hidden;
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
   background-color: #fff;
 }
 
@@ -25,7 +25,7 @@ body {
 
 .illustration {
   width: 45%;
-  margin: 20px;
+  padding: 20px;
 }
 
 .left {
@@ -37,8 +37,9 @@ body {
 }
 
 .descr {
+  box-sizing: border-box;
   float: none;
-  margin: 20px;
+  padding: 20px;
 }
 
 .audio-link {
@@ -57,9 +58,12 @@ body {
 }
 
 .location {
-  width: 100%;
   margin-top: 0.1em;
   font-weight: bold;
+}
+
+.location:hover {
+  opacity: 0.666;
 }
 
 .concept {
@@ -89,7 +93,7 @@ a:visited {
 }
 
 a:hover {
-  opacity: 0.5;
+  opacity: 0.666;
 }
 
 @media screen and (max-width: 800px) {
@@ -116,6 +120,12 @@ a:hover {
   }
 
   .illustration {
+    box-sizing: border-box;
     display: block;
+    width: 100%;
+  }
+
+  .descr {
+    padding-top: 0;
   }
 }
