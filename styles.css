@@ -6,6 +6,7 @@ body {
   font-family: Avenir, sans-serif;
   background-color: #555;
   color: #555;
+  line-height: 1.2rem;
 }
 
 .container {
@@ -66,6 +67,7 @@ body {
 
 .location {
   margin-top: 0.1em;
+  font-size: 1.1em;
   font-weight: bold;
 }
 
@@ -93,6 +95,10 @@ body {
   text-decoration: none;
   color: #555;
   clear: both;
+}
+
+a {
+  color: #555;
 }
 
 a:visited {
