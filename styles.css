@@ -30,17 +30,21 @@ body {
 
 .left {
   float: left;
-  text-align: left;
 }
 
 .right {
   float: right;
-  text-align: right;
 }
 
 .descr {
   float: none;
   margin: 20px;
+}
+
+.audio-link {
+  width: 1.7em;
+  height: 1.7em;
+  opacity: 0.666;
 }
 
 .index {
@@ -73,20 +77,19 @@ body {
   margin-top: 0.2em;
 }
 
-a {
-  position: relative;
+.title {
+  margin: 20px 0;
   text-decoration: none;
   color: #555;
+  clear: both;
 }
 
 a:visited {
   color: #555;
 }
 
-.audio-link {
-  width: 1.7em;
-  height: 1.7em;
-  opacity: 0.666;
+a:hover {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 800px) {
@@ -94,5 +97,25 @@ a:visited {
     width: 100%;
     margin: 0;
     border-width: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  body {
+    width: 100%;
+    margin: 0;
+    border-width: 0;
+  }
+
+  .left {
+    float: none
+  }
+
+  .right {
+    float: none
+  }
+
+  .illustration {
+    display: block;
   }
 }
